@@ -1,7 +1,7 @@
 /** Fetches and parses ARC69 metadata for Algorand NFTs. */
 export class Arc69 {
     constructor() {
-        this.algoExplorerApiBaseUrl = "https://algoindexer.algoexplorerapi.io";
+        this.algoExplorerApiBaseUrl = "https://mainnet-idx.algonode.cloud";
     }
 
     async fetch(assetId) {
